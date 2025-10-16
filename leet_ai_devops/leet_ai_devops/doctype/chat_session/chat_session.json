@@ -1,0 +1,19 @@
+{
+  "name": "Chat Session",
+  "doctype": "DocType",
+  "module": "Leet AI DevOps",
+  "autoname": "CS.#####",
+  "is_submittable": 0,
+  "track_changes": 1,
+  "fields": [
+    {"fieldname":"title","fieldtype":"Data","label":"Title","in_list_view":1,"reqd":1},
+    {"fieldname":"target_app","fieldtype":"Data","label":"Target App (override)","description":"If blank, uses settings.target_app","in_list_view":1},
+
+    {"fieldname":"section_chat","fieldtype":"Section Break","label":"Chat"},
+    {"fieldname":"latest_prompt","fieldtype":"Long Text","label":"Prompt"},
+    {"fieldname":"messages","fieldtype":"Table","label":"Messages","options":"Chat Message","in_list_view":0,"read_only":1},
+
+    {"fieldname":"section_changes","fieldtype":"Section Break","label":"Proposed Changes"},
+    {"fieldname":"proposed_changes","fieldtype":"Table","label":"Proposed Changes","options":"Proposed Change","in_list_view":0}
+  ]
+}

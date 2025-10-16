@@ -1,0 +1,23 @@
+{
+  "name": "AI DevOps Settings",
+  "doctype": "DocType",
+  "module": "Leet AI DevOps",
+  "issingle": 1,
+  "custom": 0,
+  "fields": [
+    {"fieldname":"section_model","fieldtype":"Section Break","label":"OpenAI"},
+    {"fieldname":"openai_api_key","fieldtype":"Password","label":"OpenAI API Key"},
+    {"fieldname":"model","fieldtype":"Data","label":"Model","default":"gpt-4o-mini","description":"e.g., gpt-4o-mini"},
+    {"fieldname":"temperature","fieldtype":"Float","label":"Temperature","default":0.2},
+    {"fieldname":"max_tokens","fieldtype":"Int","label":"Max Tokens","default":3000},
+
+    {"fieldname":"section_target","fieldtype":"Section Break","label":"Target App"},
+    {"fieldname":"target_app","fieldtype":"Data","label":"Target App (folder name)","description":"e.g., leetrental"},
+
+    {"fieldname":"section_apply","fieldtype":"Section Break","label":"Apply / Git"},
+    {"fieldname":"apply_mode","fieldtype":"Select","label":"Apply Mode","options":"Dry-run\nWrite & Commit","default":"Dry-run"},
+    {"fieldname":"default_branch","fieldtype":"Data","label":"Default Branch","default":"main"},
+    {"fieldname":"git_author_name","fieldtype":"Data","label":"Git Author Name"},
+    {"fieldname":"git_author_email","fieldtype":"Data","label":"Git Author Email"}
+  ]
+}

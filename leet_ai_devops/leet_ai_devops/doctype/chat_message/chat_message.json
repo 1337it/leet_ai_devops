@@ -1,0 +1,10 @@
+{
+  "name": "Chat Message",
+  "doctype": "DocType",
+  "module": "Leet AI DevOps",
+  "istable": 1,
+  "fields": [
+    {"fieldname":"role","fieldtype":"Select","label":"Role","options":"system\nuser\nassistant","reqd":1},
+    {"fieldname":"content","fieldtype":"Long Text","label":"Content"}
+  ]
+}

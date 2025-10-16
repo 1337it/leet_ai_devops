@@ -1,0 +1,15 @@
+{
+  "name": "Proposed Change",
+  "doctype": "DocType",
+  "module": "Leet AI DevOps",
+  "istable": 1,
+  "fields": [
+    {"fieldname":"file_path","fieldtype":"Data","label":"File Path","in_list_view":1,"reqd":1,"bold":1},
+    {"fieldname":"change_type","fieldtype":"Select","label":"Change Type","options":"new\nedit\ndelete","in_list_view":1,"reqd":1},
+    {"fieldname":"description","fieldtype":"Small Text","label":"Description"},
+    {"fieldname":"diff","fieldtype":"Code","label":"Diff (Unified)","options":"Text"},
+    {"fieldname":"new_content","fieldtype":"Code","label":"New Full Content","options":"Text"},
+    {"fieldname":"applied","fieldtype":"Check","label":"Applied","in_list_view":1},
+    {"fieldname":"apply_log","fieldtype":"Small Text","label":"Apply Log"}
+  ]
+}

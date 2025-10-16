@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leet_ai_devops"
+version = "0.1.0"
+description = "Frappe + OpenAI devops helper for custom app development"
+readme = "README.md"
+authors = [{name="Leet IT Solutions"}]
+license = {text = "MIT"}
+dependencies = [
+  "openai>=1.40.0",
+  "gitpython>=3.1.43"
+]
+
+[tool.setuptools.packages.find]
+include = ["leet_ai_devops*"]
