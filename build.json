@@ -1,0 +1,10 @@
+{
+  "js/leet_ai_devops.bundle.js": [
+    "public/js/boot.js",
+    "leet_ai_devops/doctype/chat_session/chat_session.js",
+    "leet_ai_devops/doctype/ai_devops_settings/ai_devops_settings.js"
+  ],
+  "css/leet_ai_devops.bundle.css": [
+    "public/css/leet_ai_devops.css"
+  ]
+}
