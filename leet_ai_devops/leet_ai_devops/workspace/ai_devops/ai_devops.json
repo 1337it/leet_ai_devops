@@ -1,0 +1,21 @@
+{
+  "doctype": "Workspace",
+  "name": "AI DevOps",
+  "label": "AI DevOps",
+  "module": "Leet AI DevOps",
+  "public": 1,
+  "sequence_id": 1,
+  "content": "",
+  "shortcuts": [
+    {
+      "type": "DocType",
+      "label": "Chat Session",
+      "doc_type": "Chat Session"
+    },
+    {
+      "type": "DocType",
+      "label": "AI DevOps Settings",
+      "doc_type": "AI DevOps Settings"
+    }
+  ]
+}
